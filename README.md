@@ -1,6 +1,6 @@
 ## Spring MVC + Spring Security + Spring Data JPA +  Auth/Register
 
-##Konfigurisati Spring Security:##
+##Konfigurisati Spring Security:
 		  
     1. User <-> UserDetails
 		  
@@ -15,15 +15,15 @@
 			 
     3. login page -> hoću svoj
 
-  ##Spring Security##
+  ##Spring Security
   
     1. pom.xml -> dependencies 
-     2. /login 
+    2. /login 
 	   /home
 	   UserDetails - interni objekat
 	   username:"user"
 	   password: "05b3c324-5df6-4c27-abb0-2f76fd2b7084"
 	 
-3. UserDetails -> nekog našeg UserEntity 
+    3. UserDetails -> nekog našeg UserEntity 
 	   
 	   UserDetailsAdapter: spona između UserEntity<->UserDetails
