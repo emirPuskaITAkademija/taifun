@@ -1,16 +1,19 @@
+## Spring MVC + Spring Security + Spring Data JPA +  Auth/Register
+
 ##Konfigurisati Spring Security:##
-		  1. User <-> UserDetails
+		  
+    1. User <-> UserDetails
 		  
 		      UserAdapterDetails implements UserDetails 
 			  UserAdapterDetailsService implements UserDetailsService
 			  
 			  
-		  2. Mehanizam heširanja
+    2. Mehanizam heširanja
 		     05b3c324-5df6-4c27-abb0-2f76fd2b7084
 			 
 			 Ja hoću Bcrypt(Pbkdf2)
 			 
-		  3. login page -> hoću svoj
+    3. login page -> hoću svoj
 
   ##Spring Security##
   
