@@ -2,7 +2,7 @@
 
 ## Kako radi Spring MVC
 
-        1. browser : GET http://localhost:8080/home
+    1. browser : GET http://localhost:8080/home
 	2. http://localhost:8080 -> taifun
 	3. http://localhost:8080/home -> DispatcherServlet
 	4. /home -> HandlerMapper koji kontroller
