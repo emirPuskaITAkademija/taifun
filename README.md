@@ -1,6 +1,6 @@
 ## Spring MVC + Spring Security + Spring Data JPA +  Auth/Register
 
-##Konfigurisati Spring Security:
+## Konfigurisati Spring Security:
 		  
     1. User <-> UserDetails
 		  
@@ -15,7 +15,7 @@
 			 
     3. login page -> hoću svoj
 
-  ##Spring Security
+  ## Spring Security
   
     1. pom.xml -> dependencies 
     2. /login 
