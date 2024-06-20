@@ -1,5 +1,16 @@
 ## Spring MVC + Spring Security + Spring Data JPA +  Auth/Register
 
+## Kako radi Spring MVC
+
+        1. browser : GET http://localhost:8080/home
+	2. http://localhost:8080 -> taifun
+	3. http://localhost:8080/home -> DispatcherServlet
+	4. /home -> HandlerMapper koji kontroller
+	5. HomeController -> model. "poruke"
+	4. HomeController -> ViewResolver "home"
+	5. View -> "home"
+	6. response -> browser "home" 
+
 ## Konfigurisati Spring Security:
 		  
     1. User <-> UserDetails
