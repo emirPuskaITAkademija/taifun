@@ -1,4 +1,4 @@
-package ba.smoki.taifun.user;
+package ba.smoki.taifun.mvc.user;
 
 import ba.smoki.taifun.entity.user.User;
 import ba.smoki.taifun.entity.user.UserRepository;
