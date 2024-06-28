@@ -1,4 +1,4 @@
-package ba.smoki.taifun.entity.user;
+package ba.smoki.taifun.user.repository;
 
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;

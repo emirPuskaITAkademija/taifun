@@ -1,4 +1,4 @@
-package ba.smoki.taifun.entity.product;
+package ba.smoki.taifun.product.repository;
 
 
 import jakarta.persistence.*;
@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 
 @Entity
 @Table(name = "products")
-public class Product implements Serializable {
+public class ProductEntity implements Serializable {
 
     @Id
     @Basic(optional = false)
@@ -31,7 +31,7 @@ public class Product implements Serializable {
     @Column(name = "opis")
     private String description;
 
-    public Product() {
+    public ProductEntity() {
 
     }
 
@@ -80,9 +80,9 @@ public class Product implements Serializable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Product product = (Product) o;
+        ProductEntity productEntity = (ProductEntity) o;
 
-        return id != null ? id.equals(product.id) : product.id == null;
+        return id != null ? id.equals(productEntity.id) : productEntity.id == null;
     }
 
     @Override

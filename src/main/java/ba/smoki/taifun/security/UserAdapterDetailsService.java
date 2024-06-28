@@ -1,7 +1,7 @@
 package ba.smoki.taifun.security;
 
-import ba.smoki.taifun.entity.user.User;
-import ba.smoki.taifun.entity.user.UserRepository;
+import ba.smoki.taifun.user.repository.User;
+import ba.smoki.taifun.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

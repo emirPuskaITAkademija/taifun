@@ -1,6 +1,6 @@
 package ba.smoki.taifun.security;
 
-import ba.smoki.taifun.entity.user.User;
+import ba.smoki.taifun.user.repository.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

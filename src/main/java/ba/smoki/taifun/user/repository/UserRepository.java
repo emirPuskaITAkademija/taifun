@@ -1,4 +1,4 @@
-package ba.smoki.taifun.entity.user;
+package ba.smoki.taifun.user.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

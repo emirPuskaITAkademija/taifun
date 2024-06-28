@@ -1,8 +1,7 @@
-package ba.smoki.taifun.mvc.user;
+package ba.smoki.taifun.user.mvc;
 
-import ba.smoki.taifun.entity.user.User;
-import ba.smoki.taifun.entity.user.UserRepository;
-import ba.smoki.taifun.entity.user.UserService;
+import ba.smoki.taifun.user.repository.User;
+import ba.smoki.taifun.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;

@@ -1,8 +1,7 @@
 package ba.smoki.taifun;
 
 import ba.smoki.taifun.demo.ServiceOperationExecutor;
-import ba.smoki.taifun.demo.Taifun;
-import ba.smoki.taifun.entity.user.UserRepository;
+import ba.smoki.taifun.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
